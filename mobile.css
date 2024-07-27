@@ -1,0 +1,166 @@
+@media(max-width:450px){
+
+    
+    header{
+        padding: 5px 10px;
+        font-size: 12px;
+    }
+    
+    header nav{
+        gap: 8px;
+    }
+    
+    main{
+        width: fit-content;
+        margin: 0;
+        height: fit-content;
+    }
+    
+    #home article{
+        width: fit-content;
+        min-height: calc(100vh - 70px);
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        gap: 30px;
+        padding: 20px 40px;
+        margin: 0 0;
+    }
+    
+    #home article h1{
+        font-size: 70px;
+        margin-bottom: 10px;
+    }
+    
+    #home article a{
+        color: black;
+        font-size: 16px;
+        border: 1px solid black;
+        padding: 16px 65px;
+    }
+    
+    #home article img{
+        width: 450px;
+        margin-right: 0px;
+        margin-bottom: 20px;
+        transform: rotate(-30deg) scaleX(-1);
+    }
+    
+    #home div{
+        gap: 40px;
+        margin-right: 50px;
+    }
+    
+    #home div figure img{
+        width: 90px;
+        height: 90px;
+        padding: 10px 20px;
+    }
+    
+    #home div img{
+        width: 90px;
+        height: 90px;
+        padding: 10px 20px;
+    }
+    
+    #products{
+        gap: 10px;
+        margin-top: 70px;
+    }
+    
+    #products h2{
+        font-size: 40px;
+        font-weight: 200;
+        text-align: center;
+    }
+    
+    #products article figure{
+        height: 20%;
+        gap: 10px;
+        margin-bottom: 50px;
+    }
+    
+    #products article figure span{
+        flex-direction: column;
+        border: 1px solid blue;
+        padding: 10px 20px;
+        gap: 5px;
+        transition: 0.5s;
+    }
+    
+    #products article figure span img{
+        width: 100px;
+        height: 100px;
+        padding: 10px 20px;
+    }
+    
+    #order{
+        width: fit-content;
+        min-height: calc(100vh - 70px);
+        margin: 100px 0px;
+        gap: 30px;
+    }
+    
+    #order h2{
+        font-size: 50px;
+        font-weight: 200;
+        text-align: center;
+    }
+    
+    #order article{
+        height: fit-content;;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        gap: 50px;
+    }
+    
+    #order article figure{
+        gap: 15px;
+        margin-top: 30px;
+    }
+    
+    #order article div{
+        width: 80%;
+        height: fit-content;
+        background-color: white;
+        gap: 30px;
+        padding: 100px 50px;
+        margin-right: 0;
+        margin-bottom: 40px;
+    }
+    
+    #order article div h3{
+        font-size: 30px;
+    }
+    
+    #order article div span a{
+        font-size: 20px;
+        padding: 25px 50px;
+    }
+    
+    #contact article{
+        width: 100%;
+        height: fit-content;
+        flex-direction: column;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    #contact article div b{
+        font-size: 30px;
+        color: orangered
+    }
+
+    #contact article div p{
+        font-size: 13px;
+    }
+
+    footer p{
+        color: black;
+        font-size: 10px;
+        font-weight: 400;
+    }
+}
